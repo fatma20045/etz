@@ -1,0 +1,174 @@
+:root {
+  --primary-color: #a80b04;
+  --light-bg:#f5f5f5;
+  --color-yallo:#ffc600;
+
+}
+
+.navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+  color: var(--primary-color);
+
+}
+.light-bg{
+  background-color: #f5f5f5;
+}
+
+.text-deep-red {
+  color:var(--primary-color);
+}
+
+.text-golden-yellow {
+  color: var(--color-yallo);
+}
+
+.back-red {
+  background-color: var(--primary-color);
+}
+
+.icon-size {
+  width: 50px;
+  height: 50px;
+}
+
+
+.carousel-box{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hovered-btn:hover{
+  background-color:var(--color-yallo);
+}
+
+
+.hero-line1{
+  font-family: var(--heading-font);
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 53.2px;
+}
+
+.hero-line2{
+  font-family: Cinzel, serif;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 75.6px;
+  letter-spacing:5px;
+}
+
+.hero-line3{
+  font-family: "Lobster Two", serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+:root{
+  --color-yallo:#ffc600;
+  --primary-color: #a80b04;
+}
+
+.taste{
+  background-image: url(../image/session6/onion.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.taste-content{
+  color: white;
+  max-width: 700px; 
+}
+
+.taste-title{
+  font-family: Cinzel, serif;
+  font-size: 50px;
+}
+
+.taste-text{
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+}
+
+.taste-btn{
+  background-color: white;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+
+.taste-btn:hover{
+  background-color: var(--color-yallo);
+  color: black;
+}
+
+
+
+
+/* Our Menu start*/
+
+.our-work box{
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-work .box::before{
+  content: attr(data-work);
+}
+
+/* Our Menu End*/
+
+.link-hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.link-hover:hover {
+  color:var(--primary-color);
+}
+
+
+.card-img-wrapper {
+    padding: 20px;
+    text-align: center;
+  }
+
+.card-img-wrapper img {
+    width: 70%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+.shop:hover{
+  background-color: var(--color-yallo);
+}
+
+/* Footer start*/
+
+footer {
+  background-image: url(/assets/image/footer/foo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center; 
+  min-height:calc(100vh - 72px);
+  padding: 50px 0;
+}
+
+.footer-menu{
+  margin-top: 50px;
+}
+
+/* Footer end*/
